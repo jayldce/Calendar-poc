@@ -1,0 +1,26 @@
+.ms-ChoiceFieldGroup-flexContainer {
+  display: flex;
+}
+
+.ms-ChoiceField {
+  padding-right: 15px;
+  margin-bottom: 8px;
+}
+
+.ms-Dropdown-container {
+  display: flex;
+  margin-right: 20px;
+}
+
+.ms-Dropdown-label {
+  padding-right: 10px;
+}
+
+.ms-Dropdown-title {
+  border: 0px;
+  color: #ff8500;
+}
+.ms-Dropdown-title:hover {
+  border: 0px;
+  color: #ff8500;
+}

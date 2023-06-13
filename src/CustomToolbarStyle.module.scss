@@ -1,0 +1,142 @@
+.avaToolbar {
+  //background-color: red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 16px;
+
+  .leftSection{
+    min-width: calc(50% - 6px);
+    flex: 1;
+    flex-basis: 1e-9px;
+    display: flexbox;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .rightSection{
+    flex: 1 1 auto;
+    min-width: calc(50% - 6px);
+    flex: 1;
+    flex-basis: 1e-9px;
+    display: flexbox;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .navigationContainer {
+    display: flex;
+    align-items:center;
+    vertical-align: middle;
+    white-space: nowrap;
+    line-height: normal;
+    padding: 0.375rem 1rem;
+    .prevIcon{
+      cursor: pointer;
+      flex: 1 1 auto;
+      font-size:20px;
+      padding-right: 10px;
+      
+    }
+    .nextIcon{
+      cursor: pointer;
+      flex: 1 1 auto;
+      font-size:20px;
+      padding-right: 10px;
+    }
+  }
+
+  .todayButton {
+    cursor: pointer;
+    background-color:#fef7ef;
+    border-radius: 0;
+    margin: 0;
+    text-align: center;
+    vertical-align: middle;
+    border: 0px;
+    border-top: 2px solid #ff5800;
+    padding: 0.375rem 1rem;
+    line-height: normal;
+    white-space: nowrap;
+    display: flex;
+    align-items:center;
+    .btntodayIcon{
+      font-size:20px;
+      padding-right: 10px;
+    }
+  }
+}
+
+.GoToDateControl {
+  cursor: pointer;
+  border-radius: 0;
+  margin: 0;
+  text-align: center;
+  vertical-align: middle;
+  border: 0px;
+  padding: 0.375rem 1rem;
+  line-height: normal;
+  white-space: nowrap;
+  display: flex;
+  align-items:center;
+  .OpenIcon{
+    font-size:20px;
+    padding-left: 10px;
+  }
+}
+
+
+
+
+
+.ava-toolbar-label {
+  flex-grow: 1;
+  padding: 0 10px;
+  text-align: center;
+}
+
+// button {
+//   color: #fef7ef;
+//   display: inline-block;
+//   margin: 0;
+//   text-align: center;
+//   vertical-align: middle;
+//   background: none;
+//   background-image: none;
+//   border: 1px solid black;
+//   padding: 0.375rem 1rem;
+//   border-radius: 4px;
+//   line-height: normal;
+//   white-space: nowrap;
+// }
+
+.ava-btn-group {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.viewEventsButton {
+  cursor: pointer;
+  background-color:#e0e0e0;
+  border-radius: 0;
+  margin: 0;
+  text-align: center;
+  vertical-align: middle;
+  border: 0px;
+  //border-top: 2px solid #ff5800;
+  padding: 0.375rem 1rem;
+  line-height: normal;
+  white-space: nowrap;
+  display: flex;
+  align-items:center;
+  .btntodayIcon{
+    font-size:20px;
+    padding-right: 10px;
+  }
+}
+
+
